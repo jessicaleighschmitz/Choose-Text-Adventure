@@ -1,0 +1,5 @@
+<div *ngFor="let story of stories | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3><em>{{story.text}}</em> by {{story.question}}</h3>
+  </div>
+</div>
